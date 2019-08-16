@@ -1,6 +1,3 @@
-
-.facebox {
-  position: fixed;
-  background: #fff;
+page{
+	height:100%;
 }
- 

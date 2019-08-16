@@ -1,6 +1,5 @@
-<!--pages/camera/camera.wxml-->
-<view class="container">
-  <camera device-position='{{devicePosition}}' hidden='{{hideCamera}}' style="width: {{ww}};height: {{hh}}px;">
-    <cover-view class='facebox' style="left:{{x*ww}}px;top:{{y*hh+64}}px;width:{{w*ww}}px;height:{{h*hh}}px;opacity:0.5;"></cover-view>
-  </camera>
+
+<view class="w100 h100">
+ 	<camera class="w100 h100" device-position="front" flash="off" frame-size="small" binderror="error"></camera>
+ 	<canvas class="w100 h100" canvas-id="canvas"></canvas>
 </view>

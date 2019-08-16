@@ -9,12 +9,13 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"coverView": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.8.0",
 	"appid": "wx8753cafec6ca7450",
-	"projectname": "helloworld",
+	"projectname": "faceDemo",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

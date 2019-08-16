@@ -1,10 +1,136 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0rpx 0;
-  box-sizing: border-box;
-} 
+page{background-color:#fafafa;}
+
+/*公共margin*/
+.m0{margin:0 !important}
+.m2{margin:2rpx !important}
+.m10{margin:10rpx !important}
+.m20{margin:20rpx !important}
+.m30{margin:30rpx !important}
+
+.mt0{margin-top:0 !important}
+.mt2{margin-top:2rpx !important}
+.mt10{margin-top:10rpx !important}
+.mt20{margin-top:20rpx !important}
+.mt30{margin-top:30rpx !important}
+
+.mr0{margin-right:0 !important}
+.mr2{margin-right:2rpx !important}
+.mr10{margin-right:10rpx !important}
+.mr20{margin-right:20rpx !important}
+.mr30{margin-right:30rpx !important}
+
+.mb0{margin-bottom:0 !important}
+.mb2{margin-bottom:2rpx !important}
+.mb10{margin-bottom:10rpx !important}
+.mb20{margin-bottom:20rpx !important}
+.mb30{margin-bottom:30rpx !important}
+
+.ml0{margin-left:0 !important}
+.ml2{margin-left:2rpx !important}
+.ml10{margin-left:10rpx !important}
+.ml20{margin-left:20rpx !important}
+.ml30{margin-left:30rpx !important}
+
+/*公共padding*/
+.p0{padding:0 !important;}
+.p2{padding:2rpx !important}
+.p10{padding:10rpx !important}
+.p20{padding:20rpx !important}
+.p30{padding:30rpx !important}
+
+.pt0{padding-top:0 !important}
+.pt2{padding-top:2rpx !important}
+.pt10{padding-top:10rpx !important}
+.pt20{padding-top:20rpx !important}
+.pt30{padding-top:30rpx !important}
+
+.pr0{padding-right:0 !important}
+.pr2{padding-right:2rpx !important}
+.pr10{padding-right:10rpx !important}
+.pr20{padding-right:20rpx !important}
+.pr30{padding-right:30rpx !important}
+
+.pb0{padding-bottom:0 !important}
+.pb2{padding-bottom:2rpx !important}
+.pb10{padding-bottom:10rpx !important}
+.pb20{padding-bottom:20rpx !important}
+.pb30{padding-bottom:30rpx !important}
+
+.pl0{padding-left:0 !important}
+.pl2{padding-left:2rpx !important}
+.pl10{padding-left:10rpx !important}
+.pl20{padding-left:20rpx !important}
+.pl30{padding-left:30rpx !important}
+
+/*公共字体*/
+.fs20{font-size:20rpx !important}
+.fs24{font-size:24rpx !important}
+.fs26{font-size:26rpx !important}
+.fs28{font-size:28rpx !important}
+.fs30{font-size:30rpx !important}
+.fs32{font-size:32rpx !important}
+.fs36{font-size:36rpx !important}
+.fs40{font-size:40rpx !important}
+.fs50{font-size:50rpx !important}
+
+.fw-normal{font-weight:normal}
+.fw-bolder{font-weight:bolder}
+.fw-lighter{font-weight:lighter}
+
+.ta-l{text-align:left}
+.ta-c{text-align:center}
+.ta-r{text-align:right}
+.ta-j{text-align:justify}
+
+/* 公共样式 */
+.block{display:block !important}
+.hide{display:none !important}
+.iblock{display:inline-block !important}
+
+.pr{position:relative !important}
+.pa{position:absolute !important}
+.pf{position:fixed !important}
+
+.fr{float:right !important}
+.fl{float:left !important}
+
+.ws-nr{white-space:nowrap !important}   /*不换行*/
+.ws-nm{white-space:normal !important}   /*换行*/
+.to-e{text-overflow: ellipsis !important;overflow: hidden;}  /*文字显示省略号*/
+
+.bs-b{box-sizing:border-box !important}   /*包含padding*/
+.bs-c{box-sizing:content-box !important}    /*在宽度和高度之外绘制元素的内边距和边框*/
+.border{border:solid 1rpx white;}
+
+.w100{width:100%;}
+.h100{height:100%;}
+
+/* 公共color */
+.c-000{color:#000 !important}         /*黑色*/
+.c-333{color:#333 !important}
+.c-666{color:#666 !important}
+.c-999{color:#999 !important}
+.c-ccc{color:#ccc !important}
+.c-fff{color:#fff !important}         /*白*/
+
+
+/* 公共background-color */
+.bc-000{background-color:#000 !important}
+.bc-333{background-color:#333 !important}
+.bc-666{background-color:#666 !important}
+.bc-999{background-color:#999 !important}
+.bc-ccc{background-color:#ccc !important}
+.bc-fff{background-color:#fff !important}
+
+/* 公共flex */
+
+.flexCenter{display:flex;flex-direction:row;align-items:center;justify-content:center;}
+.flexDirectionColumn{flex-direction:Column;}
+.flexJustifyBetween{justify-content:space-between;}
+.flexJustifyStart{justify-content:flex-start;}
+.flexJustifyAround{justify-content:space-around;}
+.flexAlignStart{align-items:flex-start;}
+.flexAlignEnd{align-items:flex-end;}
+
+

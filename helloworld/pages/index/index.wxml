@@ -1,9 +1,5 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button bindtap="openCamera"> open camera </button>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">JS face detection</text>
-  </view>
+
+<view class="w100 flexCenter flexDirectionColumn">
+ 	<button class="m30" bindtap="btnClick">相机</button>
+ 	<image class="" style="width:{{imgW}}px;height:{{imgH}}px;" src="{{imgSrc}}"></image>
 </view>
