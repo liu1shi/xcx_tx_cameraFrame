@@ -1,0 +1,6 @@
+
+.facebox {
+  position: fixed;
+  background: #fff;
+}
+ 
