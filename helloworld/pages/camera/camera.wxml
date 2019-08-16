@@ -1,5 +1,5 @@
 
-<view class="w100 h100">
- 	<camera class="w100 h100" device-position="front" flash="off" frame-size="small" binderror="error"></camera>
- 	<canvas class="w100 h100" canvas-id="canvas"></canvas>
+<view class="flexCenter flexDirectionColumn">
+ 	<camera class="mt30" style="width:90%;height:500px;" device-position="front" flash="off" frame-size="small" binderror="error"></camera>
+ 	<canvas class="mt30" style="width:90%;height:500px;" canvas-id="canvas"></canvas>
 </view>
